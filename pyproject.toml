@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "spectratik-redteam_jd150"
+name = "spectratik-model_hot_swap_consistency_segmenter"
 version = "0.1.0"
 description = "把输入按语义边界切成独立单元，逐单元核对红队与内容安全工程师·模型热切换的一致性相关的特征并标出命中位置"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://spectratik.github.io"
-Repository = "https://github.com/spectratik/redteam_jd150"
-Issues = "https://github.com/spectratik/redteam_jd150/issues"
+Repository = "https://github.com/spectratik/model_hot_swap_consistency_segmenter"
+Issues = "https://github.com/spectratik/model_hot_swap_consistency_segmenter/issues"
 
 [project.scripts]
-redteam_jd150 = "redteam_jd150:main"
+model_hot_swap_consistency_segmenter = "model_hot_swap_consistency_segmenter:main"
 
 [tool.setuptools]
-py-modules = ["redteam_jd150"]
+py-modules = ["model_hot_swap_consistency_segmenter"]
